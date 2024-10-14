@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/tombenner/nui"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author       = { "Tom Benner" => "tombenner@gmail.com" }
-  s.source       = { :git => "https://github.com/tombenner/nui.git", :tag => "v0.5.5" }
+  s.source       = { :git => "https://github.com/twinlogix/nui.git" }
   s.platform     = :ios, '5.1'
 
   s.source_files = 'NUI', 'NUI/**/*.{h,m}'
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.frameworks   = [ "UIKit", "CoreGraphics","QuartzCore", "CoreImage" ]
   
-  s.dependency 'NUIParse', :git=>'https://github.com/twinlogix/NUIParse.git'
+  s.dependency 'NUIParse'
 end
